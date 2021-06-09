@@ -29,7 +29,14 @@
 
 \logo{\includegraphics[width=.8\beamer@sidebarwidth]{logo/nudt-small1.png}}
 \addtobeamertemplate{sidebar \beamer@sidebarside}{
-    \vspace{.1\beamer@sidebarwidth}\hspace{.1\beamer@sidebarwidth}\insertlogo}{}
+    \vspace{.1\beamer@sidebarwidth}\hspace{.1\beamer@sidebarwidth}\insertlogo}{
+        \usebeamerfont{footline}%
+        \usebeamercolor[white]{footline}%
+        \hspace{1em}%
+        \small
+        \insertframenumber/\inserttotalframenumber
+    }
+    
 
 \mode
 <all>
