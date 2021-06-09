@@ -280,3 +280,6 @@ TSWLatexianTemp*
 *~
 tags
 .notags
+*.png
+*.odp
+*.pptx
